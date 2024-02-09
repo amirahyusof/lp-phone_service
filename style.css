@@ -437,15 +437,15 @@ footer {
     }
     
     .about_image .about_bg {
-        top: 110%;
+        top: 130%;
         bottom: 120%;
         max-width: 50%;
     }
 
     .about_image .about_phone {
-        top: -50%;
+        top: -40%;
         left: 5%;
-        max-width: 60%;
+        max-width: 80%;
     }
 
     .contact form {
