@@ -192,7 +192,7 @@ header::before {
 
 .about_image .about_phone {
     position: relative;
-    top: 10%;
+    top: 20%;
     right: -20%;
     z-index: 1;
     width: 500px;
@@ -263,6 +263,7 @@ header::before {
 
 .service_card p {
     font-size: 500;
+    text-align: justify;
 }
 
 .contact {
@@ -317,7 +318,7 @@ footer {
 
 @media screen and (max-width: 900px) {
     .nav_logo a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     #check:checked ~ .nav_bar {
@@ -325,7 +326,7 @@ footer {
     }
 
     .nav_bar a {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
     }
 
     .hero_container h1{
@@ -359,7 +360,7 @@ footer {
 
     .about_image .about_phone {
         max-width: 70%;
-        top: -25%;
+        top: -35%;
         left: 5%;
     }
     
@@ -373,6 +374,7 @@ footer {
     .icons {
         display: inline-flex;
         margin-left: 40%;
+        font-size: 1.2rem;
 
     }
 
@@ -389,7 +391,7 @@ footer {
     }
 
     .nav_logo a {
-        font-size: 1.5rem;
+        font-size: 0.9rem;
     }
     
     .nav_bar {
@@ -413,11 +415,11 @@ footer {
 
     .nav_bar a {
         display: block;
-        font-size: 1.2rem;
-        margin: 1rem 0;
+        font-size: 1rem;
+        margin: 0.5rem 0;
         text-align: center;
-       transform: translateY(-50px);
-       transition: 0.3s ease;
+        transform: translateY(-50px);
+        transition: 0.3s ease;
     }
 
     #check:checked ~ .nav_bar a {
@@ -427,7 +429,7 @@ footer {
     
     .hero_container h1 {
         margin-top: 4rem;
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     .about_image {
@@ -436,12 +438,12 @@ footer {
     
     .about_image .about_bg {
         top: 110%;
-        bottom: 50%;
+        bottom: 120%;
         max-width: 50%;
     }
 
     .about_image .about_phone {
-        top: -40%;
+        top: -50%;
         left: 5%;
         max-width: 60%;
     }
